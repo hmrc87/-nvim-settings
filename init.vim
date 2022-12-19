@@ -39,7 +39,9 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+" Python Keymaps
 noremap <F5> <Esc>:w<CR>:!clear;python %<CR>
+
 call plug#begin()
  " Plugin Section
  Plug 'ryanoasis/vim-devicons'
